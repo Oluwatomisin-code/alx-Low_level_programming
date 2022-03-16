@@ -11,7 +11,7 @@ int main(void)
 
 	for (a = 'a'; a <= 'z'; a++)
 		if (a == 'z')
-			printf("%c\n", a)
+			printf("%c\n", a);
 		else
 			printf("%c", a);
 	return (0);
