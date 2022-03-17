@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *  * main - Entry point
- *   * diplays alphabet a -z
- *    * Return: 0
- *     */
+ *main - Entry point
+ * diplays alphabet a -z
+ * Return: 0
+ */
 int main(void)
 {
 	int a;
