@@ -12,10 +12,8 @@ int main(void)
 	for (a = 'a'; a <= 'z'; a++)
 		if (a != 'q' || 'e')
 		{
-			if (a == 'z')
-				putchar("%c\n", a);
-			else
-				putchar("%c", a);
+			putchar(a);
 		}
+	putchar("\n");
 	return (0);
 }
