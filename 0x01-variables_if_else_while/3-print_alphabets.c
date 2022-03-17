@@ -10,11 +10,11 @@ int main(void)
 	int a;
 
 	for (a = 'a'; a <= 'z'; a++)
-		print("%c", a);
+		printf("%c", a);
 	for (a = 'A'; a <= 'Z'; a++)
 		if (a == 'Z')
-			print("%c\n", a);
+			printf("%c\n", a);
 		else
-			print("%c", a);
+			printf("%c", a);
 	return (0);
 }
