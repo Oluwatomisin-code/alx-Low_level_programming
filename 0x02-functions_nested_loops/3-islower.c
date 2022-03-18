@@ -1,5 +1,5 @@
 #include "main.h"
-#include <ctype.h>
+#include <stdio.h>
 
 /**
  * _islower - this function uses the islower function
@@ -8,7 +8,7 @@
  * converted to its ansii equivalent for the check
  * Return: no return
  */
-int _islower(char c)
+int _islower(int c)
 {
 	int r;
 
