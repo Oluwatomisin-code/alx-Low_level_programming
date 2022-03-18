@@ -1,19 +1,19 @@
 #include <stdio.h>
-#include <main.h>
 
 /**
- * main - Entry point
+ * print_alphabet - used via main.h file
+ * main - main function can be found in main.c
  * _putchar function include in main.h writes to std
- * Return: 0 
+ * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char a;
 
 	for (a = 'a'; a <= 'z'; a++)
-	{		
-		_putchar(c);
+	{
+		_putchar(a);
 	}
-	_putchar('\n');
+	 _putchar('\n');
 	return (0);
 }
