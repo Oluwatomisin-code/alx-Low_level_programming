@@ -8,7 +8,7 @@
  * converted to its ansii equivalent for the check
  * Return: no return
  */
-int _islower(char c)
+int _islower(int c)
 {
 	int r;
 
