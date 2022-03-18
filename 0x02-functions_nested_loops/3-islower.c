@@ -1,4 +1,4 @@
-#include <ctype.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -11,7 +11,7 @@
 int _islower(int c)
 {
 	int r;
-	
+
 	r = islower(c);
 	return (r);
 }
