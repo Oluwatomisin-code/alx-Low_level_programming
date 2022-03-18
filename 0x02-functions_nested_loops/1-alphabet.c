@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * print_alphabet - used via main.h file
  * main - main function can be found in main.c
  * _putchar function include in main.h writes to std
- * Return: 0
+ * Return: returns nothing, void function
  */
 void print_alphabet(void)
 {
@@ -15,5 +16,5 @@ void print_alphabet(void)
 		_putchar(a);
 	}
 	 _putchar('\n');
-	return (0);
+	return;
 }
