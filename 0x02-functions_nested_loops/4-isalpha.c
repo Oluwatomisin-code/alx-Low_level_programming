@@ -4,7 +4,7 @@
 /**
  * _isalpha - check if parameter is an alphabet
  * @c: function parameter
- * Return; return 1 or 0
+ * Return: return 1 or 0
  */
 int _isalpha(int c)
 {
