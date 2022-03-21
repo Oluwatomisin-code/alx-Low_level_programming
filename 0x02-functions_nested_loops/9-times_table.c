@@ -15,7 +15,12 @@ void times_table(void)
 
 		for (j = 0; j <= 9; j++)
 		{
-			printf("%d, ", (i * j));
+			int times = i * j;
+
+			if (times < 10)
+				printf(" %d, ", times);
+			else
+				printf("%d, ", times);
 
 		}
 		printf("\n");
