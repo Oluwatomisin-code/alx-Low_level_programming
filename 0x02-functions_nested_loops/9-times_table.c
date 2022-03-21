@@ -19,7 +19,7 @@ void times_table(void)
 
 			if (times < 10)
 				if (j == 9)
-					printf("%d\n", times);
+					printf(" %d\n", times);
 				else
 					printf(" %d, ", times);
 			else
