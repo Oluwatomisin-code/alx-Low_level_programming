@@ -23,7 +23,6 @@ void times_table(void)
 				else
 					printf(" %d, ", times);
 			else
-			{
 				if (j == 9)
 					printf("%d\n", times);
 				else
