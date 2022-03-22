@@ -6,7 +6,7 @@
  * @n: int parameter passed
  * Return: returns void
  */
-void print_to_98(unsigned int n)
+void print_to_98(int n)
 {
 	while (n < 0)
 	{
