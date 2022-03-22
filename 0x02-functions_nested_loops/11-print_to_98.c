@@ -6,14 +6,23 @@
  * @n: int parameter passed
  * Return: returns void
  */
-void print_to_98(int n)
+void print_to_98(unsigned int n)
 {
 	while (n <= 98)
 	{
 		if (n == 98)
+		{
 			printf("%u\n", n);
+		}
 		else
+		{
 			printf("%u, ", n);
-		n = n + 1;
+			n = n + 1;
+		}
+	}
+	while (n > 98)
+	{
+		printf ("%d, ", n);
+		n = n - 1;
 	}
 }
