@@ -14,6 +14,6 @@ void print_to_98(int n)
 			printf("%u\n", n);
 		else
 			printf("%u, ", n);
-		n++;
+		n = n + 1;
 	}
 }
