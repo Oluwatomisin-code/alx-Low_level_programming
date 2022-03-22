@@ -16,7 +16,7 @@ void print_to_98(unsigned int n)
 	while (n > 98)
 	{
 		printf("%d, ", n);
-		n = n + 1;
+		n = n - 1;
 	}
 	if (n == 98)
 	{
