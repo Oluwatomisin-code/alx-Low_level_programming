@@ -17,12 +17,12 @@ void print_to_98(unsigned int n)
 		else
 		{
 			printf("%u, ", n);
-			n = n + 1;
 		}
+		n = n + 1;
 	}
 	while (n > 98)
 	{
-		printf ("%d, ", n);
-		n = n - 1;
+		printf("%d, ", n);
+		n = n + 1;
 	}
 }
