@@ -18,7 +18,7 @@ void print_rev(char *s)
 	{
 		printf("%c", s[length - 1]);
 		length--;
-		if (length = 0)
+		if (length == 0)
 			printf("\n");
 	}
 }
