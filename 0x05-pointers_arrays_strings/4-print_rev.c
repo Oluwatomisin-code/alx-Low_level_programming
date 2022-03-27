@@ -14,9 +14,10 @@ void print_rev(char *s)
 		length++;
 	}
 
-	while (length >= 0)
+	while (length > 0)
 	{
 		printf("%c", s[length - 1]);
 		length--;
 	}
+	printf("\n");
 }
