@@ -7,7 +7,7 @@
  */
 void print_rev(char *s)
 {
- 	int length = 0;
+	int length = 0;
 
 	while (s[length] != '\0')
 	{
@@ -18,6 +18,7 @@ void print_rev(char *s)
 	{
 		printf("%c", s[length - 1]);
 		length--;
+		if (length = 0)
+			printf("\n");
 	}
-	printf("\n");
 }
