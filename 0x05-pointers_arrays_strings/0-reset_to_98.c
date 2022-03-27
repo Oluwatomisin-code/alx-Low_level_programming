@@ -9,5 +9,5 @@
 void reset_to_98(int *n)
 {
 	*n = 98;
-	print("%x\n", *n);
+	printf("%x\n", *n);
 }
